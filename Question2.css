@@ -1,0 +1,43 @@
+/* Question:3 */
+/* Explain the role of  the following key properties in the Flexbox layout model.
+1. justify-content
+2. align-items
+3. gap
+4. flex-direction
+5. flex-wrap */
+
+/* Answers: */
+
+/* The Flexbox layout model is a powerful CSS layout system designed for creating complex and flexible web layouts. It allows you to efficiently distribute space and align items within a container, making it particularly useful for building responsive and dynamic web designs.  */
+
+/* 1.justify-content: */
+
+/* justify-content is used to control the horizontal alignment of flex items within a flex container.
+It can take various values, such as flex-start (default), flex-end, center, space-between, and space-around, among others.
+flex-start aligns items at the start of the container, while flex-end aligns them at the end. center centers the items, and space-between distributes items evenly with space between them, while space-around distributes them with space around each item. */
+
+/* 2.align-items: */
+
+/* align-items is used to control the vertical alignment of flex items within a flex container.
+It can take values like flex-start (default), flex-end, center, stretch, and baseline.
+flex-start aligns items at the top, flex-end at the bottom, and center vertically centers the items.
+stretch makes the items fill the full height of the container, and baseline aligns items based on their text baselines. */
+
+/* 3.gap: */
+
+/* gap is a shorthand property for setting the gap between flex items and their container. It defines the space between the rows and columns in a flex container.
+It's used with the row-gap and column-gap properties to set the horizontal and vertical gaps, respectively, between flex items.
+The gap property is useful for creating responsive and consistent spacing between items in a grid or flex container. */
+
+/* 4.flex-direction: */
+
+/* flex-direction is used to determine the direction in which flex items are laid out within a flex container.
+It can take values like row (default), row-reverse, column, or column-reverse.
+row arranges items in a horizontal line from left to right, while row-reverse reverses that order.
+column stacks items in a vertical column from top to bottom, and column-reverse reverses that order. */
+
+/* 5.flex-wrap: */
+
+/* flex-wrap determines whether flex items should wrap to the next line when they don't fit within the container's width.
+It can take values like nowrap (default), wrap, or wrap-reverse.
+nowrap forces items to stay in a single line without wrapping, potentially causing overflow. wrap allows items to wrap to the next line when they exceed the container's width. wrap-reverse wraps items in the opposite direction from wrap */
